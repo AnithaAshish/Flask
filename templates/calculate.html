@@ -1,0 +1,17 @@
+<html>
+    <body>
+        
+       
+        <h1>Grade Sheet</h1>
+        <br>
+            <form action="{{url_for('Gradesheet')}}" method="post">
+                <input type="text" name="maths" placeholder="Maths" required="required"/>
+                <input type="text" name="physics" placeholder="Physics" required="required"/>
+                <input type="text" name="chemistry" placeholder="Chemistry" required="required"/>
+                <button type="submit">Calculate Grade</button>
+            </form>
+        </br>
+            
+        
+    </body> 
+</html>
